@@ -1,0 +1,57 @@
+public class rev{
+public static rev(String str){
+
+String str= "i Love india";
+for(int i= str.size()-1;i>=0;i--)
+{
+system.out.println(str[i]);
+}
+}
+
+1.check Gmail web is loading or not;
+2.is UI Is correct as per description;
+3. is there forgot password button
+4. check for creds;
+5.is loging is sucessful;
+6.are u able to see compose email button
+7.click on copose email button and send mail;
+8.check spam folder the logic of spam is working correct or not
+9.is there favorite button available
+10.check the fuctionality of fav button
+11.is sent email recieved or not
+12.check attachment of data or file fuction is available 
+13.check the fuctionality of attachment buttun
+14.whether reciver recievs that file
+15.delete mail button fuctionality
+
+EmpID
+EmpFname
+EmpLname
+Department
+Project
+Address
+DOB
+Gender
+
+Create table employee(
+    emp id primary key int,
+   empfmane varchar(20),
+    emplmane varchar(20),
+     dept varchar(20),
+  project varchar(20),
+  address varchar(20),
+   dob date; 
+   gender varchar(10)
+);
+
+EmployeePosition Table:
+EmpID EmpPosition DateOfJoining Salary
+
+create table EmployeePosition (
+ empid foreing key int;
+ empposition varchar(10);
+ dateofjoining varchar(20));
+ salary int;
+)
+
+insert into EmployeePosition (empid empposition, dateofjoining, salary) values (10,'manager','2022-01-05',10000);
