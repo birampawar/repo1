@@ -55,3 +55,5 @@ create table EmployeePosition (
 )
 
 insert into EmployeePosition (empid empposition, dateofjoining, salary) values (10,'manager','2022-01-05',10000);
+
+#preparing for data engineering interview
